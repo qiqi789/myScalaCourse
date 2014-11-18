@@ -26,6 +26,8 @@ object lecture12 {
     
     val s = sqrtStream(4) filter (isGoodEnough(_, 4))
     println(s.head)
+    
+
   }
 
 }
